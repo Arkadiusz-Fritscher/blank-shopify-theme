@@ -1,0 +1,37 @@
+[
+  {
+    "name": "theme_info",
+    "theme_name": "Blank starter",
+    "theme_version": "0.1",
+    "theme_author": "Fritscher",
+    "theme_documentation_url": "https://help.shopify.com/manual/online-store/themes",
+    "theme_support_url": "https://support.shopify.com/"
+  },
+  {
+    "name": "t:settings_schema.layout.name",
+    "settings": [
+      {
+        "type": "range",
+        "id": "page_width",
+        "min": 800,
+        "max": 1600,
+        "step": 20,
+        "default": 1440,
+        "unit": "px",
+        "label": "t:settings_schema.layout.settings.page_width.label"
+      },
+      {
+        "type": "color",
+        "id": "color_primary",
+        "default": "#E5E0DD",
+        "label": "Primary Theme color"
+      },
+      {
+        "type": "color",
+        "id": "color_secondary",
+        "default": "#212121",
+        "label": "Secondary Theme color"
+      }
+    ]
+  }
+]

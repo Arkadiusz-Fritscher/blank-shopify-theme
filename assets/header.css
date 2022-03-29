@@ -1,0 +1,53 @@
+.header {
+  padding-top: 1rem;
+}
+
+/* Bar -> Logo, Icons */
+.header__bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header__bar__logo {
+  display: flex;
+  align-items: center;
+}
+
+.header__bar__logo__link {
+  display: flex;
+  align-items: center;
+}
+
+.header__bar__logo__link__img {
+}
+
+.header__bar__icons {
+}
+
+/* Nav */
+.header__nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+
+.header__nav__primary {
+}
+
+.header__nav__primary__list,
+.header__nav__secondary__list {
+  display: flex;
+  align-items: center;
+}
+.header__nav__primary__list__item {
+}
+.header__nav__primary__list__item__link,
+.header__nav__secondary__list__item__link {
+  padding: 0.3rem;
+  padding-inline: 0.6rem;
+}
+.header__nav__secondary {
+}
